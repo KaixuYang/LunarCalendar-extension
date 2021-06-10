@@ -22,13 +22,6 @@ eg: lunar-find solarterm [2018]
 
 Recommended time range: 1900 - 2100, which may be enough.
 If not, you must extend it before expect it working well.
-
-For documentation, source code and other information, please visit:
-<https://github.com/wolfhong/LunarCalendar>_.
-
-You're welcome to contribute to this project, or offer some suggestions
-about festivals, come on and file an issue please:
-<https://github.com/wolfhong/LunarCalendar/issues>_.
 """
 
 
