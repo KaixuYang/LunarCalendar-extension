@@ -6,5 +6,3 @@ __all__ = [
     'Solar', 'Lunar', 'DateNotExist', 'Converter',
     'zh_festivals', 'zh_solarterms',
 ]
-
-__version__ = '0.0.9'
