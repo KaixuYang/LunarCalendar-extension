@@ -1,18 +1,14 @@
 from setuptools import setup, find_packages
-import os
-import codecs
 
+with open('README.md', 'r', encoding='utf-8') as f:
+    long_description = f.read()
 
-def read(fname):
-    """Loads the contents of a file, returning it as a string"""
-    filepath = os.path.join(os.path.dirname(__file__), fname)
-    return codecs.open(filepath, 'r', 'utf8').read()
 
 setup(
     name='LunarCalendar-ext',
     version='0.0.1',
     description='A fork from LunarCalendar.',
-    long_description=read("README.rst"),
+    long_description=long_description,
     author='KaixuYang',
     author_email='kaixuyang@gmail.com',
     url='https://github.com/KaixuYang/LunarCalendar-extension',
